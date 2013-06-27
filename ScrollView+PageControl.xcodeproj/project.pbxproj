@@ -23,6 +23,7 @@
 		0405FFF8175DD8AA006724E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0405FFF6175DD8AA006724E4 /* InfoPlist.strings */; };
 		0405FFFA175DD8AA006724E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405FFF9175DD8AA006724E4 /* main.m */; };
 		0405FFFE175DD8AA006724E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405FFFD175DD8AA006724E4 /* AppDelegate.m */; };
+		04C4D02117602BF7006CF51B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4D02017602BF7006CF51B /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0405FFFC175DD8AA006724E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0405FFFD175DD8AA006724E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0405FFFF175DD8AA006724E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04C4D01F17602BF7006CF51B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04C4D02017602BF7006CF51B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				0405FFFD175DD8AA006724E4 /* AppDelegate.m */,
 				04050005175DD8AA006724E4 /* ViewController.h */,
 				04050006175DD8AA006724E4 /* ViewController.m */,
+				04C4D01F17602BF7006CF51B /* FirstViewController.h */,
+				04C4D02017602BF7006CF51B /* FirstViewController.m */,
 				04050008175DD8AA006724E4 /* ViewController.xib */,
 				0405FFF4175DD8AA006724E4 /* Supporting Files */,
 			);
@@ -281,6 +286,7 @@
 				0405FFFA175DD8AA006724E4 /* main.m in Sources */,
 				0405FFFE175DD8AA006724E4 /* AppDelegate.m in Sources */,
 				04050007175DD8AA006724E4 /* ViewController.m in Sources */,
+				04C4D02117602BF7006CF51B /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +441,7 @@
 				04050024175DD8AB006724E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04050025175DD8AB006724E4 /* Build configuration list for PBXNativeTarget "ScrollView+PageControlTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +450,7 @@
 				04050027175DD8AB006724E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0405FFE3175DD8A9006724E4 /* Build configuration list for PBXProject "ScrollView+PageControl" */ = {
 			isa = XCConfigurationList;
